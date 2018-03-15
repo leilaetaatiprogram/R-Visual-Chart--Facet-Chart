@@ -2,13 +2,11 @@
  
 # Overview R Custom Visual Chart (Facet Chart)
 
-This is a R custom visual for Power BI users. This chart able to shows at the same time 4 to 5 variables 
-in format of Scatter Chart, BarChart and BoxPlot. 
-This chart is a table chart that accept at least 4 variables. 
+This is an R custom visual for Power BI users. This chart helps us to show  4 to 5 variables at the same time in the format of Scatter Chart, BarChart, and BoxPlot. 
+This chart is a table chart that accepts at least four variables. 
 ## Variables
-2 integer or continuse variable for X and Y. 
-for legent, Row and Coloum should be categorial data
+Two integer or continuous variable for X and Y. 
+for the legend, Row and Column should be categorical data
 ## Chart Type
-you able to identify the chart type. By defualt, it is a scatter chart but it able to cupport, Barchart and Boxplot.
-you need to create a measure for BoxPlot and Barchart and allocate to them "BarChart" or "BoxPlot" value.
+By default, it is a scatter chart but also support Barchart and Boxplot. you need to create a "measure" for BoxPlot and Barchart and allocate value "BarChart" for showing the bar chart and value or "BoxPlot" to show box plot.
 
